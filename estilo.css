@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body, html {
+    height: 100%;;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #fff;
+}
+
+.corBg {
+    background-color: rgba(255, 255, 255, 0.9);
+    }
+
+.txt-titulo {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
+.txt-banner {
+    font-size: 1.5em;
+    margin-left: 2px;
+}
+
+.obs {
+    margin: 15px 0px 0px -13px;
+}
+
+.obrigado {
+    font-size: 'Oswald', sans-serif;
+    font-size: 2.35em;
+}
+
+.btn-customizado {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+    margin: 10px 0px 10px 4px;
+    text-transform: capitalize;
+    background: #fff;
+    color: #1e1e1e;
+  }
+
+  .btn-customizado:hover {
+      background: #323131;
+      color: #fff;
+  }
+
+  .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
